@@ -46,11 +46,14 @@ public class LibraryModel {
 		 * 
 		 * */
 		public void rateSong(Song song, int rating) {
-			song.setRating(rating);
-			if (rating == 5) {
-				markFavorite(song);
-			}
+    			if (songs.contains(song)) {
+        		    song.setRating(rating);
+        		    if (rating == 5) {
+            			markFavorite(song);
+        		    }
+    			}
 		}
+
 		
 		/*
 		 * 
