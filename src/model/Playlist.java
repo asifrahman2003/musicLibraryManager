@@ -23,7 +23,7 @@ public class Playlist {
 	}
 	
 	public void addSong(Song song) {
-		songs.remove(song);
+   	       songs.add(song);  // Fix to add song not remove it
 	}
 	
 	public void removeSong(Song song) {
