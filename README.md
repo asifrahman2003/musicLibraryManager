@@ -31,7 +31,7 @@
 2. **Compile**: `javac -d bin app/*.java model/*.java store/*.java view/*.java`
 3. **Run**: `java -cp bin app.Main`
 
-## Run: java -jar MusicLibrary.jar
+** Run: ** `java -jar MusicLibrary.jar`
 
 ## Usage
 1. Launch the app.
