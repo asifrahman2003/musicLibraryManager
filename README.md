@@ -27,9 +27,11 @@
 - `albums/albums.txt`: Music store catalog.
 
 ## Installation
-1. **Requirements**: Java 11+
+1. **Requirements**: Java 22+
 2. **Compile**: `javac -d bin app/*.java model/*.java store/*.java view/*.java`
 3. **Run**: `java -cp bin app.Main`
+
+## Run: java -jar MusicLibrary.jar
 
 ## Usage
 1. Launch the app.
