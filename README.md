@@ -1,7 +1,5 @@
 # musicLibraryManager
 
-# Music Library Application
-
 ## Overview
 - **Author**: Asifur Rahman
 - **Course**: CSc 335
